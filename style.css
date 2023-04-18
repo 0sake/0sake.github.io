@@ -60,6 +60,17 @@
     margin-top: 1em;
     margin-bottom: 1em;
   }
+  .submenu-arrow{
+    margin-left:7em;
+    justify-content: left;
+  }
+  .sidenav li div{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: row;
+  }
 
   .sidenav a {
     padding: 8px 8px 8px 3px;
