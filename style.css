@@ -1,7 +1,7 @@
 
 
 
-.nav-wrapper {
+  .nav-wrapper {
     display: flex;
     flex-direction: column;
     height: 15em;
@@ -197,7 +197,7 @@
   }
   
   .nav-wrapper-bot .topLinks{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(198, 198, 198);
   }
 
   .nav-wrapper-bot nav ul {
@@ -271,7 +271,6 @@
 
   .body {
     display: flex;
-    flex-direction: column;
     justify-content: left;
     align-items: flex-start;
     margin-left: 5em;
@@ -330,6 +329,56 @@
     background-color: #ffffff;
   }
 
+  .body .middle-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(198, 198, 198);
+  }
+
+  .body .middle-box-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .body .middle-box-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .body .middle-box div div{
+    height: 100%;
+    width: 50%;
+  }
+
+  .body .middle-box div div p{
+    font: normal 700 1.2em/1.7 "Droid Sans",Helvetica,sans-serif;
+  }
+
+  .body .middle-box div div p:hover{
+    color: var(--primary-light);
+  }
+
+  .body .middle-box div div img{
+    height: auto;
+    width: 75%;
+  }
+
   .body .headlines-coloumn {
     display: flex;
     flex-direction: column;
@@ -361,9 +410,101 @@
   }
 
   .body .headlines-coloumn .headlines-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
     text-align: left;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(198, 198, 198);
   }
+
+  .body .headlines-coloumn .headlines-box p{
+    margin-bottom: 0.5em;
+    font: normal 600 0.9em/1.7 "Droid Sans",Helvetica,sans-serif;
+  }
+
+  .body .headlines-coloumn .leads-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 1em;
+  }
+
+  .body .headlines-coloumn .leads-box .signup-box{
+    width: 100%;
+    background-color: #f8f6f6;
+    margin-bottom: 2em;
+  }  
+
+
+  .leads-box div p{
+    font: normal 600 1em/1.7 "Droid Sans",Helvetica,sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
+  .leads-box  .homepage-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .leads-box  .homepage-button a{
+    width: calc(6em);
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color:  #006394;
+    color: #fff;
+    text-align: center;
+    font: normal 600 0.9375em/1.7333333333 "Droid Sans",Helvetica,sans-serif;
+    padding: 7% 5%;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 2em;
+  }
+
+  .body .headlines-coloumn .leads-box .social-box{
+    width: 100%;
+    background-color: #f8f6f6;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+  } 
+
+  .social-box .social-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .leads-box .social-box .social-button a{
+    display: flex;
+    width: calc(2.2em);
+    height: 2em;
+    background-color: #006394;
+    color: #fff;
+    font: normal 500 0.8em/1.7333333333 "Droid Sans",Helvetica,sans-serif;
+    padding: 7% 5%;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+
 
   .body #hidden-p{
     display: none;
@@ -372,7 +513,7 @@
   @media screen and (max-width: 1040px) {
     .nav-wrapper {
       height: 4em;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid rgb(198, 198, 198);
     }
     .nav-wrapper-top .nav-wrapper-top-left .homepage-menu a{
       display: none;
@@ -395,6 +536,10 @@
     .body .box-coloumn .top-box {
       flex-direction: column;
     }
+
+
+
+   
   }
 
   @media screen and (max-width: 1280px){
@@ -413,4 +558,21 @@
       display: none;
     }
   }
+
+  @media screen and (max-width: 950px) {
+
+    .body{
+      flex-direction: column;
+    }
+
+    .body .box-coloumn{
+      width: 100%;
+    }
+
+    .body .headlines-coloumn{
+      width: 75%;
+    }
+  }
+    
+  
   
