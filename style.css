@@ -1,5 +1,8 @@
 
+
+
   #page {
+    display: block;
     width: 100%;
   }
 
@@ -369,6 +372,7 @@
   .body .middle-box div div{
     height: 100%;
     width: 50%;
+    margin-left: 1em;
   }
 
   .body .middle-box div div p{
@@ -441,6 +445,9 @@
   }
 
   .body .headlines-coloumn .leads-box .signup-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-color: #f8f6f6;
     margin-bottom: 2em;
@@ -467,14 +474,15 @@
     display: block;
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
     background-color:  #006394;
     color: #fff;
     text-align: center;
     font: normal 600 0.9375em/1.7333333333 "Droid Sans",Helvetica,sans-serif;
-    padding: 7% 5%;
+    padding: 4% 5%;
     border-radius: 4px;
     text-decoration: none;
-    margin-bottom: 2em;
   }
 
   .body .headlines-coloumn .leads-box .social-box{
@@ -522,7 +530,7 @@
     width: 75%;
     background-color: #ffffff;
     margin-bottom: 1em;
-    
+    margin-left: 1em;
   }
 
 
@@ -595,7 +603,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: auto;
     background-color: #ffffff;
     box-shadow: 0px 1px 8px 0px rgba(0,0,0,.35) inset;
     padding-top: 2em;
@@ -617,7 +625,7 @@
   }
 
   .footer-icon img{
-    width: auto;
+    width: 50%;
     height: 75%;
     margin-right: 1em;
   }
