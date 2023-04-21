@@ -1,5 +1,7 @@
 
-
+  #page {
+    width: 100%;
+  }
 
   .nav-wrapper {
     display: flex;
@@ -121,6 +123,7 @@
     align-items: center;
     width: 33%;
     height: 100%;
+    margin-right: 2em;
   }
 
   #LateralMenu {
@@ -274,7 +277,7 @@
     justify-content: left;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-left: 5em;
+    margin-left: 3em;
     height: 100%;
     width: 100%;
     background-color: #ffffff;
@@ -340,6 +343,7 @@
     background-color: #ffffff;
     flex-wrap: wrap;
     border-top: 1px solid rgb(198, 198, 198);
+    margin-left: 2em;
   }
 
   .body .middle-box-top{
