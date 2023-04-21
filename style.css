@@ -741,14 +741,17 @@
 
     .body{
       flex-direction: column;
+      margin-left: 0;
     }
 
     .body .box-coloumn{
-      width: 80%;
+      /* width: 80%; */
+      width: 100%;
     }
 
     .body .headlines-coloumn{
-      width: 75%;
+      /* width: 75%; */
+      width: 100%;
     }
 
     .recommended-column{
