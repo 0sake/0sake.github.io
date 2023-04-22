@@ -347,6 +347,7 @@
     flex-wrap: wrap;
     border-top: 1px solid rgb(198, 198, 198);
     margin-left: 2em;
+    margin-right: 2em;
   }
 
   .body .middle-box-top{
@@ -583,7 +584,7 @@
     background-color: #006394;
     color: #fff;
     font: normal 500 0.8em/1.7333333333 "Droid Sans",Helvetica,sans-serif;
-    padding: 7% 5%;
+    padding: 5% 5%;
     border-radius: 30px;
     justify-content: center;
     align-items: center;
@@ -616,7 +617,6 @@
 
   .footer-icon{
     display: flex;
-    margin-left: 2em;
     flex-direction: row;
     justify-content: left;
     align-items: center;
@@ -625,9 +625,11 @@
   }
 
   .footer-icon img{
-    width: 50%;
+    width: 35%;
     height: 75%;
     margin-right: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 2em;
   }
 
 
@@ -753,6 +755,7 @@
     .body .headlines-coloumn{
       /* width: 75%; */
       width: 100%;
+      margin-left: 0em;
     }
 
     .recommended-column{
@@ -766,7 +769,7 @@
 
     .recommended-box .recommended-column li{
       margin-top: 0.5em;
-      width: 80%;
+      width: 95%;
     }
   }
     
