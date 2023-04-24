@@ -563,7 +563,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 95%;
   }
 
   .body-news-box .body-news-box-element{
@@ -912,6 +912,36 @@
     .body-news-box-element-news .body-news-box-element-links{
       width: 100%;
     }
+
+    .footer-columns{
+      flex-direction: column;
+    }
+
+    .footer-columns .footer-column .collapsible{
+      display: none;
+    }
+
+    .footer-columns div{
+      width: 95%;
+    }
+
+    .body .middle-box div div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 75%;
+    }
+
+    .middle-box{
+      flex-direction: column;
+    }
+    .body .middle-box-top{
+      flex-direction: column;
+    }
+    .body .middle-box-bot{
+      flex-direction: column;
+    }
+    
 
   }
     
