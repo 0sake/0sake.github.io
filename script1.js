@@ -1,4 +1,4 @@
-function openNav() {
+  function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("page").style.opacity = "0.4";
   }
@@ -19,3 +19,4 @@ function openNav() {
       document.getElementById(mainMenuItem + "-arrow").style.transform = "rotate(0deg)";
     }
   }
+  

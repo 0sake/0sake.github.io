@@ -81,6 +81,17 @@
     </div>
     <div id="page">
       <div class="nav-wrapper">
+        <script>
+          const nav = document.querySelector('.nav-wrapper');
+          document.addEventListener('scroll', ()=> {
+            console.log(document.documentElement.scrollTop)
+            if (document.documentElement.scrollTop > 240) {
+              nav.classList.add('nav-wrapper-scrolled');
+            } else {
+              nav.classList.remove('nav-wrapper-scrolled');
+            }
+          });
+        </script>
         <div class="nav-wrapper-top">       
           
           
@@ -229,6 +240,86 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="body-news-box">
+          
+          <div class="body-news-box-element">
+            <div class="body-news-box-element-category">
+              <p>NEWS CATEGORY</p>
+            </div>
+            <div class="body-news-box-element-news">
+              <img src="Resources\loremIpsum.png">
+              <div class="body-news-box-element-text">
+                <div class="body-news-box-element-title">
+                  <p>News Title</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="body-news-box-element-links">
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li class="middle-li"><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="body-news-box-element">
+            <div class="body-news-box-element-category">
+              <p>NEWS CATEGORY</p>
+            </div>
+            <div class="body-news-box-element-news">
+              <img src="Resources\loremIpsum.png">
+              <div class="body-news-box-element-text">
+                <div class="body-news-box-element-title">
+                  <p>News Title</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="body-news-box-element-links">
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li class="middle-li"><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="body-news-box-element">
+            <div class="body-news-box-element-category">
+              <p>NEWS CATEGORY</p>
+            </div>
+            <div class="body-news-box-element-news">
+              <img src="Resources\loremIpsum.png">
+              <div class="body-news-box-element-text">
+                <div class="body-news-box-element-title">
+                  <p>News Title</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="body-news-box-element-links">
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li class="middle-li"><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+              </div>
+            </div>
+          </div>
+          <div class="body-news-box-element">
+            <div class="body-news-box-element-category">
+              <p>NEWS CATEGORY</p>
+            </div>
+            <div class="body-news-box-element-news">
+              <img src="Resources\loremIpsum.png">
+              <div class="body-news-box-element-text">
+                <div class="body-news-box-element-title">
+                  <p>News Title</p>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="body-news-box-element-links">
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li class="middle-li"><a href="#">Lorem ipsum dolor sit amet</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div class="recommended-box">
           <div class="recommended-title">
